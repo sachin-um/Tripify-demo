@@ -1,0 +1,52 @@
+@import url('components/signup.css');
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    height: 141px;
+    left: 0px;
+    top: 0px;
+
+    background: #03002E;
+}
+
+#logo-1{
+    position: absolute;
+    width: 350px;
+    height: 79px;
+    left: 241px;
+    top: 31px;
+}
+
+.login-btns{
+    position: absolute;
+    width: 289px;
+    height: 38px;
+    left: 1004px;
+    top: 52px;
+}
+
+.btns{
+    box-sizing: border-box;
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    background: #35BCBF;
+    border: 2px solid #FFFFFF;
+    border-radius: 1000px;
+}
+
+#login{
+    left: 0px;
+    top: 0px;
+}
+
+#sign-up{
+    right: 0px;
+    top: 0px;
+}
+
+
