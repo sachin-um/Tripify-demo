@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.footer-class{
+    width: 100%;
+    height: 30%;
+    background-color: #03002E;
+    color: white;
+    margin-bottom: 0;
+}
+
+.cols{
+    width: 30%;
+}
+
+.copyright{
+    padding: 25px;
+    text-align: center;
+}
+
