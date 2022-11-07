@@ -4,21 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ebd996cad6.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
 <body>
-    <div class="horizontal-scroll">
+    <div class="white-space">
+        <h1 id="title" >Discover popular destinations across Sri Lanka!</h1>
+    </div>
+    <div class="horizontal-scroll" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
         <img class="left-arrow" src="images/211689_left_arrow_icon.png" alt="scroll-left">
 
-        <img class="first-pic" style="width: 400px;height:auto" src="images/25.jpg" alt="first-pic">
-
-        <img class="secnd-pic" style="width: 400px;height:auto" src="images/new.jpg" alt="nine-arch">
-
-        <img class="third-pic" style="width: 400px;height:auto" src="images/sigiriya-459197_1920.jpg" alt="sigiriya">
-
+        <img class="first-pic" style="height: 200px;width:auto" src="images/25.jpg" alt="first-pic">
+        &nbsp;&nbsp;
+        <img class="secnd-pic" style="height: 200px;width:auto" src="images/new.jpg" alt="nine-arch">
+        &nbsp;&nbsp;
+        <img class="third-pic" style="height: 200px;width:auto" src="images/sigiriya-459197_1920.jpg" alt="sigiriya">
+        &nbsp;&nbsp;
         <img class="right-arrow" src="images/211607_right_arrow_icon.png" alt="right-arrow">
     </div>
     
+    <hr class="divider">
+
+    <div class="user-btns" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+        <button id="btn-1" class="btns">
+            <span class="button__icon">
+                <ion-icon name="bed-outline"></ion-icon>
+            </span>
+            <br>
+            <span class="button__text">Hotel</span>
+        </button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <button id="#2" class="btns">
+            <span class="button__icon">
+                <ion-icon name="car-outline"></ion-icon>
+            </span>
+            <br>
+            <span class="button__text">Taxi</span>
+        </button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <button id="#3" class="btns">
+            <span class="button__icon">
+                <ion-icon name="accessibility-outline"></ion-icon>
+            </span>
+            <br>
+            <span class="button__text">Guide</span>
+        </button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <button id="#4" class="btns">
+            <span class="button__icon">
+                <ion-icon name="map-outline"></ion-icon>
+            </span>
+            <br>
+            <span class="button__text">Plan a Trip</span>
+        </button>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

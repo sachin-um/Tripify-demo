@@ -2,8 +2,51 @@
     margin: 0;
 }
 
+.white-space{
+    height: 10%;
+    width: 100%;
+}
+
+#title{
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
 .horizontal-scroll{
-    margin-top: 100px;
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    margin-top: 2%;
     text-align: center;
 }
 
+.user-btns{
+    height: 25%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.btns{
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #03002E;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.btns:hover{
+    background-color: white;
+    color: #03002E;
+}
+
+.divider{
+    margin-top: 17%;
+}
+
+#btn-1{
+    background: images\8665445_hotel_service_travel_icon.png no-repeat left center;
+    padding-left: 20px;
+}
