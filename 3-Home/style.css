@@ -27,14 +27,25 @@
 }
 
 .btns{
-    display:inline-block;
     height: 200px;
     width: 200px;
     border-radius: 10px;
     background-color: #03002E;
     color: white;
-    font-size: large;
+    font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.button__text,
+.button__icon{
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.button__icon{
+    font-size: 4em;
 }
 
 .btns:hover{
