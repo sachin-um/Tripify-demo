@@ -23,7 +23,7 @@
     border-right: .15em solid orange;
     width: 0;
     animation: 
-    typing 1s steps(20, end) forwards;
+    typing 1s steps(100, end) forwards;
 }
 
 @keyframes typing {
